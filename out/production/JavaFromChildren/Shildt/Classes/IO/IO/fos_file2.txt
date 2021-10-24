@@ -1,0 +1,3 @@
+﻿3 ByteArrayInputStream(b[])…while...byte Ь[] =  tmp.getBytes();
+ByteArrayOutputStream...baOS.write(buf);
+3

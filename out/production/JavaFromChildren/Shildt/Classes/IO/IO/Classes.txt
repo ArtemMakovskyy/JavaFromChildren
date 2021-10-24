@@ -1,0 +1,9 @@
+﻿InputStream, OutputStream, Reader  и   Write
+
+Классы InputStream и OutputStream
+
+Кnacc FileinputStream -для чтения байтов из файла.
+
+FileinputStream  fO = new FileinputStream("/autoexec.bat")
+File f = new File ("/autoexec.bat");
+FileinputStream  fl = new FileinputStream(f) ;

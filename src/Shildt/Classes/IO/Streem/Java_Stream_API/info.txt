@@ -1,0 +1,99 @@
+https://www.youtube.com/watch?v=RzEiCguFZiY&t=27s
+UA
+Java Stream API: функционально, модно, молодёжно!
+
+
+
+Java Stream API: функциональный подход к работе с коллекциями в Java 8+. Продвинутые методы работы с коллекциями.
+
+Содержание ниже
+
+Казалось бы, чего такого можно придумать в обработке коллеций: взяли и обошли в цикле, но нет. Если мы взглянем в те же популярные JavaScript, ruby, python или более близкие JVM языки, то увидим, что можно жить проще, писать меньше кода и получать более читабельные обработчики. Инженеры из Oracle напрягли мозги и осчастливили миллионы разработчиков во всём мире. Присоединимся же и мы к всеобщей радости, кратко ознакомившись с этим замечательным API.
+
+Код из видео:
+https://github.com/drucoder/javalearn...​
+
+Хорошая статья по теме (спасибо Чеширу, что нашёл и поделился в чатике):
+https://annimon.com/article/2778​
+
+Видео про Lombok:
+https://www.youtube.com/watch?v=QmsMW...​
+
+СОДЕРЖАНИЕ
+
+https://www.youtube.com/watch?v=RzEiC...​ Стримы из объектов файловой системы
+https://www.youtube.com/watch?v=RzEiC...​ Files.lines()
+https://www.youtube.com/watch?v=RzEiC...​ Files.list()
+https://www.youtube.com/watch?v=RzEiC...​ Files.walk()
+
+https://www.youtube.com/watch?v=RzEiC...​ Стримы из примитивов
+https://www.youtube.com/watch?v=RzEiC...​ IntStream
+https://www.youtube.com/watch?v=RzEiC...​ DoubleStream
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.range()
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.rangeClosed()
+https://www.youtube.com/watch?v=RzEiC...​ Arrays.stream()
+
+Стримы из объектов
+https://www.youtube.com/watch?v=RzEiC...​ Stream.of(Object)
+https://www.youtube.com/watch?v=RzEiC...​ Stream.builder()
+https://www.youtube.com/watch?v=RzEiC...​ Collection.stream()
+https://www.youtube.com/watch?v=RzEiC...​ Collection.parallelStream()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.generate()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.iterate()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.concat()
+
+Терминальные операции
+https://www.youtube.com/watch?v=RzEiC...​ Stream.count()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.forEach()
+https://www.youtube.com/watch?v=RzEiC...​ Collection.forEach()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.forEachOrdered()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.collect()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.toArray()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.collect(toMap())
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.reduce()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.reduce()
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.average(), IntStream.max(), IntStream.min(), IntStream.sum(), IntStream.summaryStatictics()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.max(), Stream.min()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.findAny(), Stream.findFirst()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.noneMatch()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.anyMatch()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.allMatch()
+
+https://www.youtube.com/watch?v=RzEiC...​ Трансформации стримов
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.mapToLong()
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.mapToObj()
+https://www.youtube.com/watch?v=RzEiC...​ IntStream.distinct()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.filter()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.skip()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.limit()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.sorted()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.map()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.peek()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.takeWhile()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.dropWhile()
+https://www.youtube.com/watch?v=RzEiC...​ Stream.flatMap()
+
+https://www.youtube.com/watch?v=RzEiC...​ Примеры использования
+
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+➡ Твиттер: https://twitter.com/letsCodeDru​
+➡ Группа Вконтакте: https://vk.com/letscodedru​
+➡ Канал в Telegram: https://t.me/letsCode_dru​
+➡ Чат в Telegram: https://t.me/joinchat/FeiP9xEhqHajfqh...​
+➡ Сервер в Discord: https://discord.gg/xs6XxSx​
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+Поддержать проект:
+➡ Patreon https://www.patreon.com/letscodedru​
+➡ Яндекс.Деньги https://money.yandex.ru/to/4100145167...​
+➡ PayPal paypal.me/letscodedru
+➡ Qiwi https://qiwi.me/letscode​
+➡ WebMoney/BitCoin https://funding.webmoney.ru/d/drucoder​
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+➡ Ссылка на канал: https://www.youtube.comhttps://www.yo...​
+➡ Ссылка на Яндекс.Дзен: https://zen.yandex.ru/media/id/5ac209...​
